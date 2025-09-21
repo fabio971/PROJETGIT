@@ -8,13 +8,15 @@ public abstract class AbstractVuePersonnalisable extends JDialog {
 	private int attr2;
 	private int attr3;
 	private int attr4;
+	private int attr5;
 
-	public AbstractVuePersonnalisable(int attr1, int attr2, int attr3, int attr4) {
+	public AbstractVuePersonnalisable(int attr1, int attr2, int attr3, int attr4, int attr5) {
 		super();
 		this.attr1 = attr1;
 		this.attr2 = attr2;
 		this.attr3 = attr3;
 		this.attr4 = attr4;
+		this.attr5 = attr5;
 	}
 	
 	public AbstractVuePersonnalisable() {
@@ -23,6 +25,7 @@ public abstract class AbstractVuePersonnalisable extends JDialog {
 		this.attr2 = 0;
 		this.attr3 = 0;
 		this.attr4 = 0;
+		this.attr5 = 0;
 	}
 
 	public int getAttr1() {
@@ -56,10 +59,21 @@ public abstract class AbstractVuePersonnalisable extends JDialog {
 	public void setAttr4(int attr4) {
 		this.attr4 = attr4;
 	}
+	
+
+	public int getAttr5() {
+		return attr5;
+	}
+
+	public void setAttr5(int attr5) {
+		this.attr5 = attr5;
+	}
 
 	@Override
 	public String toString() {
 		return "AbstractVuePersonnalisable [attr1=" + attr1 + ", attr2=" + attr2 + ", attr3=" + attr3 + ", attr4="
-				+ attr4 + "]";
+				+ attr4 + ", attr5=" + attr5 + "]";
 	}
+
+	
 }
