@@ -49,6 +49,11 @@ public abstract class AbstractVuePersonnalisable extends JDialog {
 		this.attr4 = attr4;
 	}
 	
+	@Override
+	public String toString() {
+		return "AbstractVuePersonnalisable [attr1=" + attr1 + ", attr2=" + attr2 + ", attr3=" + attr3 + "]";
+	}
+	
 	
 	
 }
