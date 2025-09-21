@@ -1,5 +1,7 @@
 package VIEW.Abstracts;
 
-public class AbstractVuePersonnalisable {
+import javax.swing.JDialog;
+
+public abstract class AbstractVuePersonnalisable extends JDialog {
 
 }
