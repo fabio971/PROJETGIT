@@ -16,6 +16,14 @@ public abstract class AbstractVuePersonnalisable extends JDialog {
 		this.attr3 = attr3;
 		this.attr4 = attr4;
 	}
+	
+	public AbstractVuePersonnalisable() {
+		super();
+		this.attr1 = 0;
+		this.attr2 = 0;
+		this.attr3 = 0;
+		this.attr4 = 0;
+	}
 
 	public int getAttr1() {
 		return attr1;
